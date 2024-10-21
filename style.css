@@ -1,0 +1,214 @@
+.banner {
+    background: url(img/gambar1.jpg)
+    no-repeat center center;
+    background-size: cover;
+    padding-top: 20%;
+    padding-bottom: 10%;
+    color: #fff;
+}
+
+.kontak {
+    background: url(img/gambar2.jpg) no-repeat center center;
+    background-size: cover;
+    padding-bottom: 20%;
+    padding-top: 20%;
+    color:#fff;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.navbar-brand {
+    font-weight: bold;
+}
+.navbar-nav .nav-link {
+    font-weight: bold;
+}
+.header-text {
+    text-align: center;
+    margin: 50px 0;
+}
+.header-text h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+.header-text h2 {
+    font-size: 18px;
+    font-weight: bold;
+}
+.categories {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.categories a {
+    margin: 0 10px;
+    font-weight: bold;
+    color: #000;
+}
+.categories a.active {
+    color: #00b894;
+}
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.gallery img {
+    width: 100%;
+    height: auto;
+}
+.gallery-item {
+    flex: 1 1 calc(25% - 10px);
+}
+.gallery-item.wide {
+    flex: 2 1 calc(50% - 10px);
+}
+
+* {
+    font-family: 'Poppins' , sans-serif;
+}
+
+.wrapper {
+    padding: 0 20px 0 20px;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.login {
+    width: 900px;
+    height: 550px;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 5px 5px 10px 1px rgba(0,0,0,0.2);
+}
+
+.side-image {
+    background-image: url("img/gambar13.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    border-radius: 10px 0 0 10px;
+}
+.text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.text p {
+    color:#fff;
+    font-size: 18px;
+}
+i{
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.input-box {
+    width: 330px;
+    box-sizing: border-box;
+}
+
+.input-box header {
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.input-field {
+    display: flex;
+    position: relative;
+    
+}
+
+.cta-section {
+    background: linear-gradient(90deg, rgba(0,123,255,1) 0%, rgba(0,123,255,0.8) 100%);
+    color: white;
+    padding: 40px;
+    border-radius: 90px;
+    text-align: center;
+}
+.cta-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+.cta-section p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.cta-section .btn {
+    background-color: #6c757d; /* Bootstrap secondary color */
+    color: white;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 90px;
+}
+
+body {
+    background-color: #f8f9fa;
+}
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px;
+}
+.card a:hover {
+    text-decoration: underline;
+}
+
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+}
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.card img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+.card-text {
+    font-size: 0.875rem;
+    color: #6c757d;
+}
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+    border-radius: 20px;
+    padding: 0.5rem 1.5rem;
+}
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+.section-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+

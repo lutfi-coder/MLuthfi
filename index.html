@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lutfi Project</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="style.css">
+    <style>
+      #myBtn {
+        display: none;
+        position: fixed;
+        bottom: 20px;
+        right: 30px;
+        z-index: 99;
+        font-size: 18px;
+        border: none;
+        outline: none;
+        background-color: rgb(115, 0, 255);
+        color: white;
+        cursor: pointer;
+        padding: 15px;
+        border-radius: 4px;
+      }
+      
+      #myBtn:hover {
+        background-color: #555;
+      }
+      </style>
+</head>
+<body>
+
+  <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-lg fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#">luthfi</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse text-right" id="navbarText">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#profile">Profile</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#gallery">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#signin">Sign in</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#kontak">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+  <!-- home -->
+      <div class="container-fluid banner">
+        <div class="container text-center">
+          <h2 class="display-3" id="home"></h2>
+            <h3 class="display-1">SELAMAT DATANG DI WEB SAYA</h3>
+            <h4 class="display-6">yuk kepoin</h4>
+            <a href="#signin">
+                <button type="button" class="btn btn-danger btn-lg">
+                    Log in here
+                </button>
+              </a>
+        </div>
+      </div>
+  <!-- layanan -->
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Content & Marketing</h5>
+                <p class="card-text">we design compelling social media updates, SEO-rich blog posts, smartly targeted ads and attention-grabbing email marketing campaigns that promote our client’s specific products and services to drive brand awareness and name recognition.</p>
+                <a href="#">See Proof →</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Website Design & Build</h5>
+                <p class="card-text">We design one-of-a-kind, SEO-rich websites that look fantastic and drive traffic to your business. From the wireframe to copywriting and front-and back-end search engine optimization, we design and build beautiful, functional sites.</p>
+                <a href="#">View Financials →</a>
+              </div>
+            </div>
+          </div>
+        </div>
+  <!-- portofolio -->
+    <div class="container pt-5 pb-5">
+      <div class="container text-center">
+        <h2 class="display-6" id="">My profile</h2>
+        <div class="row align-items-center flex-row-reverse">
+          <h2 class="display-3" id="profile"></h2>
+            <div class="col-lg-6">
+              <div class="about-text go-to">
+                  <h3 class="dark-color">Muchammad Luthfi Maulana</h3>
+                  <h6 class="theme-color lead">A Lead UX &amp; UI designer based in Indonesia</h6>
+                  <p>I <mark>design and develop</mark> services for customers of all sizes, specializing in creating stylish, modern websites, web services and online stores. My passion is to design digital user experiences through the bold interface and meaningful interactions.</p>
+                  <div class="row about-list">
+                                      <div class="col-md-6">
+                                          <div class="media">
+                                              <label>Date of birth</label>
+                                              <p>4 May 2004</p>
+                                          </div>
+                                          <div class="media">
+                                              <label>Age</label>
+                                              <p>22 Yr</p>
+                                          </div>
+                                          <div class="media">
+                                              <label>Residence</label>
+                                              <p>Indonesia</p>
+                                          </div>
+                                          <div class="media">
+                                              <label>Address</label>
+                                              <p>Jl. K.H Mansyur No. 41</p>
+                                          </div>
+                                      </div>
+                                      <div class="col-md-6">
+                                          <div class="media">
+                                              <label>E-mail</label>
+                                              <p>lutfipkl03@gmail.com</p>
+                                          </div>
+                                          <div class="media">
+                                              <label>Phone</label>
+                                              <p>0819-1937-6919</p>
+                                          </div>
+                                          <div class="media">
+                                              <label>Skype</label>
+                                              <p>skype.0404</p>
+                                          </div>
+                                          <div class="media">
+                                              <label>Freelance</label>
+                                              <p>Available</p>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="col-lg-6">
+                              <div class="about-avatar">
+                                  <img src="img/avatar.png" title="" alt="">
+                              </div>
+                          </div>
+                      </div>
+                      <div class="counter">
+                          <div class="row">
+                              <div class="col-6 col-lg-3">
+                                  <div class="count-data text-center">
+                                      <h6 class="count h2" data-to="500" data-speed="500">500</h6>
+                                      <p class="m-0px font-w-600">Happy Clients</p>
+                                  </div>
+                              </div>
+                              <div class="col-6 col-lg-3">
+                                  <div class="count-data text-center">
+                                      <h6 class="count h2" data-to="150" data-speed="150">150</h6>
+                                      <p class="m-0px font-w-600">Project Completed</p>
+                                  </div>
+                              </div>
+                              <div class="col-6 col-lg-3">
+                                  <div class="count-data text-center">
+                                      <h6 class="count h2" data-to="850" data-speed="850">850</h6>
+                                      <p class="m-0px font-w-600">Photo Capture</p>
+                                  </div>
+                              </div>
+                              <div class="col-6 col-lg-3">
+                                  <div class="count-data text-center">
+                                      <h6 class="count h2" data-to="190" data-speed="190">190</h6>
+                                      <p class="m-0px font-w-600">Telephonic Talk</p>
+                                  </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+  <!-- Mata kuliah  -->
+    <div class="container-fluid layanan pt-5 pb-5">
+      <div class="container text-center">
+          <h2 class="display-6" id="layanan">Mata Kuliah</h2>
+          <div class="row pt-4">
+              <div class="col-md-4">
+
+                  <span class="lingkaran"><i class="fas fa-code fa-5x"></i></span>
+                  <h3 class="mt-3">Web Progaming</h3>
+                  <p> Proses atau Cara untuk menjalankan intruksi pada sebuah komputer yang terhubung ke internet untuk membuat fungsi atau tugas tertentu. dan dalam menjalanan sebuah program di dalam web itu melaui web browser seperti : mozilla, Opera, Chrome, dll <br> Dosen Pengampu | Bp.M Zaki Abdillah</p>
+              </div>
+              <div class="col-md-4">
+                  <span class="lingkaran"><i class="fas fa-pencil-paintbrush fa-5x"></i></span>
+                
+                  <h3 class="mt-3">Desain Web</h3>
+                  <p>Membuat tampilan website jadi menarik. Misalnya efek ilustrasi pada website, tipografi, keseimbangan kontras, layout, dll. Mereka juga fokus membuat desain dengan pendekatan user experience agar mudah untuk digunakan <br> Dosen Pengampu | Bp.Abdul Rozak Noufal</p>
+              </div>
+              <div class="col-md-4">
+                  <span class="lingkaran"><i class="fas fa-network-wired fa-5x"></i></span>
+                
+                  <h3 class="mt-3">Desain & Manajemen Jaringan</h3>
+                  <p>Suatu bentuk rencana untuk membuat struktur jaringan dalam sebuah instansi/organisasi yang dapat menghubungkan antar sistem yang sudah dibuat dengan menerapkan metode-metode <br>Dosen Pengampu | Bp.Akrim teguh Suseno</p>
+              </div>
+              <div class="col-md-4">
+                  <span class="lingkaran"><i class="fas fa-mosque fa-5x"></i></span>
+                
+                  <h3 class="mt-3">Agama & Ke-NU-an III</h3>
+                  <p>Mata pelajaran yang menekankan pada pembentukan peserta didik menjadi manusia yang beriman dan bertakwa kepada Allah SWT serta berakhlakul karimah sesuai dengan prinsip dasar ajaran Ahlussunnah wal Jamaah NU <br>Dosen Pengampu | Bp.Ishak Isfiroyini</p>
+              </div>
+              <div class="col-md-4">
+                  <span class="lingkaran"><i class="fas fa-desktop fa-5x"></i></span>
+                
+                  <h3 class="mt-3">Rekayasa Perangkat Lunak</h3>
+                  <p> Berkaitan dengan software komputer mulai dari pembuatan website, aplikasi, game dan semua yang berkaitan dengan pemrograman dengan menguasai bahasa pemrograman tersebut <br>Dosen Pengampu | Bp.Taufiqurrohman</p>
+              </div>
+              <div class="col-md-4">
+                  <span class="lingkaran"><i class="fas fa-database fa-5x"></i></span>
+                
+                  <h3 class="mt-3">Teknologi Basis Data</h3>
+                  <p>Kumpulan informasi dan data yang saling berhubungan satu sama lain, di mana data disimpan dalam repositori di luar komputer dan dibutuhkan perangkat lunak untuk mengelolanya  <br>Dosen Pengampu | Bp.Taufiqurrohman</p>
+              </div>
+              <div class="col-md-4">
+                  <span class="lingkaran"><i class="fas fa-palette fa-5x"></i></span>
+                
+                  <h3 class="mt-3">Animasi</h3>
+                  <p>Merupakan gambar bergerak berbentuk dari sekumpulan objek yang disusun secara beraturan mengikuti pergerakan yang telah ditentukan pada setiap pertambahan hitungan waktu yang terjadi. Gambar atau objek yang dimaksud dalam definisi diatas bisa berupa gambar manusia, hewan, maupun tulisan <br> Dosen Pengampu | Bp. Al`amin</p>
+              </div>
+          </div>
+      </div>
+  </div>  
+  <!-- jumbotron -->
+  <div class="cta-section">
+    <h2>www.malesngoding.com</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat fugiat, laboriosam, voluptatem, optio vero odio nam sit officia accusamus minus error nisi architecto nulla ipsum dignissimos. Odit sed qui, dolorum!</p>
+    <button class="btn">Learn more</button>
+  </div>
+  <!-- artikel -->
+  <div class="container my-5">
+    <h2 class="section-title">
+     Latest articles
+    </h2>
+    <div class="row">
+     <div class="col-md-4">
+      <div class="card">
+       <img alt="A beautiful tropical paradise with palm trees and a swimming pool" class="card-img-top" height="400" src="img/gambar14.jpg" width="600"/>
+       <div class="card-body">
+        <h5 class="card-title">
+         My paradise
+        </h5>
+        <p class="card-text">
+         Published 13.01.2022 by Anna Maria Doe
+        </p>
+        <p class="card-text">
+         Ut pretium ultricies dignissim. Sed sit amet mi eget urna placerat vulputate. Ut vulputate est non quam dignissim elementum. Donec a ullamcorper diam.
+        </p>
+        <a class="btn btn-primary" href="#">
+         READ MORE
+        </a>
+       </div>
+      </div>
+     </div>
+     <div class="col-md-4">
+      <div class="card">
+       <img alt="A scenic view of a coastal town in Italy" class="card-img-top" height="400" src="img/gambar15.jpg" width="600"/>
+       <div class="card-body">
+        <h5 class="card-title">
+         Travel to Italy
+        </h5>
+        <p class="card-text">
+         Published 12.01.2022 by Hailey Frank
+        </p>
+        <p class="card-text">
+         Suspendisse in volutpat massa. Nulla facilisi. Sed aliquet diam orci, nec ornare metus semper sed. Integer volutpat ornare erat sit amet rutrum.
+        </p>
+        <a class="btn btn-primary" href="#">
+         READ MORE
+        </a>
+       </div>
+      </div>
+     </div>
+     <div class="col-md-4">
+      <div class="card">
+       <img alt="A sunny resort with palm trees and a swimming pool" class="card-img-top" height="400" src="img/gambar16.jpg" width="600"/>
+       <div class="card-body">
+        <h5 class="card-title">
+         Chasing the sun
+        </h5>
+        <p class="card-text">
+         Published 10.01.2022 by Joe Svan
+        </p>
+        <p class="card-text">
+         Curabitur tristique, ma a mollis sagittis, metus felis mattis arcu, non vehicula nisl dui quis diam. Mauris ut risus eget massa volutpat feugiat. Donec.
+        </p>
+        <a class="btn btn-primary" href="#">
+         READ MORE
+        </a>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </body>
+ </html>
+  <!-- gallery -->
+  <div class="container-fluid">
+  <div class="header-text">
+    <h2 class="display-3" id="gallery"></h2>
+   <h1>
+      MY GALLERY
+   </h1>
+  </div>
+   <div class="container">
+   <div class="gallery">
+    <div class="gallery-item wide">
+     <img alt="A person sitting in a modern architectural space with a scenic view outside" height="400" src="img/gambar3.jpg" width="600"/>
+    </div>
+    <div class="gallery-item">
+     <img alt="A modern geometric lampshade" height="400" src="img/gambar4.jpg" width="300"/>
+    </div>
+    <div class="gallery-item">
+     <img alt="A person cutting a piece of steak on a plate" height="400" src="img/gambar5.jpg" width="300"/>
+    </div>
+    <div class="gallery-item">
+     <img alt="A woman posing with a thoughtful expression" height="400" src="img/gambar6.jpg" width="300"/>
+    </div>
+    <div class="gallery-item">
+     <img alt="A close-up of a Harley Davidson motorcycle logo" height="200" src="img/gambar7.jpg" width="300"/>
+    </div>
+    <div class="gallery-item">
+     <img alt="A close-up of hands with a ring" height="200" src="img/gambar8.jpg" width="300"/>
+    </div>
+    <div class="gallery-item">
+     <img alt="A dog sitting on a yellow kayak in the water" height="200" src="img/gambar9.jpg" width="300"/>
+    </div>
+    <div class="gallery-item">
+     <img alt="A close-up of coffee beans in a blue bag" height="200" src="img/gambar10.jpg" width="300"/>
+    </div>
+    <div class="gallery-item">
+     <img alt="A peeled banana with a cigarette in place of the fruit" height="200" src="img/gambar11.jpg" width="300"/>
+    </div>
+    <div class="gallery-item">
+     <img alt="A person with a heavily tattooed face" height="200" src="img/gambar12.jpg" width="300"/>
+    </div>
+    <div class="gallery-item">
+    </div>
+   </div>
+  </div> 
+  <!-- login -->
+  <div class="container-fluid pt-5 pb-5">
+    <div class="container text-center">
+      <h2 class="display-6" id="">Log in here</h2>
+    <h2 class="display-3" id="signin"></h2>
+    <div class="container main">
+      <div class="row login">
+        <div class="col-md-5 side-image">
+          <div class="text">
+            <p>SIGN IN</p>
+          </div>
+        </div>
+        <div class="col-md-6 right">
+          <div class="card">
+            <h2 class="card-title">Enter account</h2>
+            <form>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Email">
+                </div>
+                <div class="mb-3">
+                    <label for="password" class="form-label">Password</label>
+                    <input type="password" class="form-control" id="password" placeholder="Password">
+                </div>
+                <button type="submit" class="btn btn-primary">Sign Up</button>
+            </form>
+            <div class="text-center">
+                <p>Already have an account? <a href="#">Log in here</a></p>
+            </div>
+        </div>    
+        </div>
+      </div>
+    </div>
+  </div>   
+  <!-- kontak -->
+      <div class="container">
+    <h1 class="text-center mb-4 mt-2">My contact</h1>
+    <div class="row justify-content-center">
+      <h2 class="display-3" id="kontak"></h2>
+      <div class="col-md-7">
+        <div class="card p-4 kontak">
+          <h4>Contact information</h4>
+          <ul class="list-unstyled">
+            <li><strong><img src="img/ikonwa.png"  width="30px" height="30px">:</strong><a href="https://wa.me/+6281919376919">+62 819 1937 6919</a></li>
+            <li><strong><img src="img/ikoninstagram.png"  width="30px" height="30px">:</strong><a href="https://www.instagram.com/luthf11_?igsh=MWQ1cHZsaW1qcGI4Nw==" target="_blank">luthf11_</a></li>
+            <li><strong><img src="img/ikonmaps.png"  width="30px" height="30px">:</strong><a href="https://maps.windows.com/?form=WNAMSH&entity=local_ypid%3AYN7999x8936319955706860421&collection=point.-6.891025_109.667358_Hotel Teratai">Jl. K.H Mansyur No.41 Bendan</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- maps -->
+    <div class="container">
+      <h1 class="text-center mb-4 mt-2">My Maps</h1>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.9965093619753!2d109.664781073565!3d-6.891019667429783!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e702429984db2db%3A0xe6d544fdb767044d!2sHotel%20Teratai!5e0!3m2!1sid!2sid!4v1728565648524!5m2!1sid!2sid" width="1120" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  <!-- tombol otomatis ke atas -->
+  <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-arrow-up"></i></button>
+  <!-- footer -->
+  <div class="container my-5">
+    <footer class="text-dark text-center text-lg-start bg-white">
+    <!-- Grid container -->
+    <div class="container p-4">
+      <!--Grid row-->
+      <div class="row mt-4">
+        <!--Grid column-->
+        <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
+          <h5 class="text-uppercase mb-4">Alamat</h5>
+  
+          <p>
+            Jl. KH. Mansyur No.41, RW.6, Bendan, Kec. Pekalongan Bar., Kota Pekalongan, Jawa Tengah 51119
+          </p>
+          <a href="https://g.page/santrihightech?share" target="_blank">Maps link</a>
+          <p>
+            ITS NU Pekalongan | IM23B
+          </p>
+  
+          <div class="mt-4">
+            <!-- Facebook -->
+            <a type="button" class="btn btn-floating btn-primary btn-lg"><i class="fab fa-facebook-f"></i></a>
+            <!-- Twitter -->
+            <a type="button" class="btn btn-floating btn-primary btn-lg"><i class="fab fa-twitter"></i></a>
+            <!-- Google + -->
+            <a type="button" class="btn btn-group-sm btn-danger btn-lg"><i class="fab fa-instagram"></i></a>
+            <!-- Linkedin -->
+          </div>
+        </div>
+        <!--Grid column-->
+  
+        <!--Grid column-->
+        <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase mb-4 pb-1">Media</h5>
+  
+          <div class="form-outline form-white mb-4">
+          </div>
+  
+          <ul class="fa-ul" style="margin-left: 1.65em;">
+            <li class="mb-3">
+              <span class="fa-li"><i class="fas fa-home"></i></span><span class="ms-2">Bendan, Kota Pekalongan</span>
+            </li>
+            <li class="mb-3">
+              <span class="fa-li"><i class="fas fa-envelope"></i></span><span class="ms-2">lutfipkl03@gamil.com</span>
+            </li>
+            <li class="mb-3">
+              <span class="fa-li"><i class="fas fa-phone"></i></span><span class="ms-2"><a href="https://wa.me/+6281919376919">+62819-1937-6919</a></span>
+            </li>           
+          </ul>
+        </div>
+        <!--Grid column-->
+  
+        <!--Grid column-->
+        <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase mb-4">Jadwal Pembelajaran</h5>
+  
+          <table class="table text-center text-dark">
+            <tbody class="font-weight-normal">
+              <tr>
+                <td>Monday:</td>
+                <td>08:50 - 14:40</td>
+              </tr>
+              <tr>
+                <td>Tuesday:</td>
+                <td>08:50 - 17:10</td>
+              </tr>
+              <tr>
+                <td>Wednesday:</td>
+                <td>09:40 - 11:20</td>
+              </tr>
+              <tr>
+                <td>Thursday:</td>
+                <td>08:50 - 10:30</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <!--Grid column-->
+      </div>
+      <!--Grid row-->
+    </div>
+    <!-- Grid container -->
+  
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgb(0, 0, 0);">
+      © ITS NU Pekalongan:
+      <a class="text-white" href="https://mdbootstrap.com/">Mahasiswaits2024</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Link Bootstrap JS and dependencies -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script>
+      // Get the button
+      let mybutton = document.getElementById("myBtn");
+      
+      // When the user scrolls down 20px from the top of the document, show the button
+      window.onscroll = function() {scrollFunction()};
+      
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          mybutton.style.display = "block";
+        } else {
+          mybutton.style.display = "none";
+        }
+      }
+      
+      // When the user clicks on the button, scroll to the top of the document
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+      </script>
+  
+</body>
+</html>
